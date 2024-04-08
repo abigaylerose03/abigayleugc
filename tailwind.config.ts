@@ -17,10 +17,10 @@ const config: Config = {
         'ab-page': '#A18D75',
         'ab-shape-1': '#715739',
         'ab-shape-2': '#A6988B',
-        'ab-accent': '#C6DCE3'  
+        'ab-accent': '#BFE3EE'  
       },
       textColor: {
-        'ab-accent': '#C6DCE3'
+        'ab-accent': '#BFE3EE'
       }
     },
   },
