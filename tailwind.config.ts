@@ -5,7 +5,7 @@ const config: Config = {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
-  ],  
+  ],
   theme: {
     extend: {
       backgroundImage: {
@@ -14,14 +14,15 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       backgroundColor: {
-        'ab-page': '#A18D75',
-        'ab-shape-1': '#715739',
-        'ab-shape-2': '#A6988B',
-        'ab-accent': '#BFE3EE'  
+        "ab-page": "#A18D75",
+        "ab-shape-1": "#715739",
+        "ab-shape-2": "#A6988B",
+        "ab-accent": "#BFE3EE",
+        "form-container": "#715739",
       },
       textColor: {
-        'ab-accent': '#BFE3EE'
-      }
+        "ab-accent": "#BFE3EE",
+      },
     },
   },
   plugins: [],

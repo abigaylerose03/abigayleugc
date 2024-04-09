@@ -7,15 +7,14 @@ import Services from "./components/services";
 
 const inter = Inter({ subsets: ["latin"] });
 
-
 export default function Home() {
   return (
     <main className="bg-ab-page">
-      <Navbar/>
-      <Intro/>
-      <Experience/>
-      <Services/>
-      <Contact/>
+      <Navbar />
+      <Intro />
+      <Experience />
+      <Services />
+      <Contact />
     </main>
   );
 }
