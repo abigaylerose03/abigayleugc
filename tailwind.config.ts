@@ -22,6 +22,7 @@ const config: Config = {
       },
       textColor: {
         "ab-accent": "#BFE3EE",
+        "ab-page": "#A18D75"
       },
     },
   },
