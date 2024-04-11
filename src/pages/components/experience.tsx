@@ -44,7 +44,7 @@ export default function Experience() {
 
   return (
     <main className="">
-      <h1 className="mt-8 text-ab-accent text-center text-5xl uppercase">Past Work</h1>
+      <h1 className="mt-8 text-ab-accent text-center text-4xl uppercase font-unbounded">Past Work</h1>
 
       {/* Hexagon headers */}
       <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
@@ -67,7 +67,7 @@ export default function Experience() {
 {/* Videos and Category Titles */}
 {Object.entries(videos).map(([category, videos], categoryIndex) => (
   <div key={categoryIndex} style={{ backgroundColor: categoryIndex % 2 === 0 ? '#d3c2a6' : '#8C7961' }}>
-    <h3 className="text-2xl text-center py-4" style={{ color: categoryIndex % 2 === 0 ? '#000000' : '#ffffff' }}>
+    <h3 className="text-2xl text-center py-4 font-unbounded tracking-wider" style={{ color: categoryIndex % 2 === 0 ? '#000000' : '#ffffff' }}>
       {category.toUpperCase()}
     </h3>
     <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-8 px-4">
@@ -78,15 +78,13 @@ export default function Experience() {
               <source src={video.src} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
-            <p className="text-center mt-4 text-xl pb-4" style={{ color: categoryIndex % 2 === 0 ? '#000000' : '#ffffff' }}>{video.title}</p>
+            <p className="text-center mt-4 text-xl pb-4 font-nunito" style={{ color: categoryIndex % 2 === 0 ? '#000000' : '#ffffff' }}>{video.title}</p>
           </div>
         </div>
       ))}
     </div>
   </div>
 ))}
-
-
     </main>
   );
 }

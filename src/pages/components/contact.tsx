@@ -64,7 +64,7 @@ export default function Contact() {
 
   return (
     <main className="flex flex-col items-center" id="contact">
-      <h1 className="mt-8 text-ab-accent text-center uppercase text-5xl mb-8">
+      <h1 className="mt-8 text-ab-accent text-center uppercase text-4xl mb-8 font-unbounded">
         Let's Make <span className="font-bold">Magic</span> Together
       </h1>
       <div className="w-full md:w-5/6 lg:w-3/4 mx-auto bg-white shadow-md rounded-md p-8 min-h-[500px]">
