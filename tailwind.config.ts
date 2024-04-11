@@ -20,6 +20,10 @@ const config: Config = {
         "ab-accent": "#BFE3EE",
         "form-container": "#715739",
       },
+      colors: {
+        'row-odd': '#d3c2a6',
+        'row-even': '#8C7961', 
+      },
       textColor: {
         "ab-accent": "#BFE3EE",
         "ab-page": "#A18D75"

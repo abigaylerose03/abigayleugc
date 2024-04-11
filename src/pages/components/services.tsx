@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Services() {
   return (
-    <main className="mt-8">
+    <main className="pt-8 bg-ab-page">
       <h1 className="text-ab-accent text-center uppercase text-5xl mb-8">
         My Services
       </h1>

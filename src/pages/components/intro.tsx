@@ -2,31 +2,28 @@ import Image from "next/image";
 
 export default function Intro() {
   return (
-    // Increasing grid gap and padding for larger spacing
-    <main className="grid grid-cols-1 md:grid-cols-2 gap-8 p-8 content-center">
+    <main className="grid grid-cols-1 md:grid-cols-2 gap-12 p-12 content-center">
       <div className="text-center">
-        <h2 className="uppercase text-ab-accent font-bold text-3xl mb-4">
+        <h2 className="uppercase text-ab-accent font-bold text-3xl mb-6 md:text-4xl">
           Meet Your Creative Partner
         </h2>
-        <h1 className="uppercase text-white text-6xl mb-4">
+        <h1 className="uppercase text-white text-6xl mb-6 md:text-7xl">
           Abigayle Peterson
         </h1>
-        <h3 className="uppercase text-ab-accent text-2xl mb-4">
+        <h3 className="uppercase text-ab-accent text-2xl mb-6 md:text-3xl">
           UGC Portfolio ⚡
         </h3>
-        <ul className="text-xl pb-4">
+        <ul className="text-xl pb-6 md:text-2xl">
           <li>💸 Top Creator @ Topmate 2023</li>
           <li>💸 Founder @ Magnify Wellness Inc.</li>
           <li>💸 Top Product Manager Voice on LinkedIn (11k+)</li>
         </ul>
-        <p className="mb-8 text-xl">
-          Expert product storyteller who{" "}
-          <span className="font-bold">transforms</span> viewers to loyal fans of
-          your brand
+        <p className="mb-10 text-xl md:text-2xl">
+          Expert product storyteller who <span className="font-bold">transforms</span> viewers to loyal fans of your brand
         </p>
         <a
-          href="#"
-          className="bg-black text-white rounded-md px-6 py-3 hover:bg-gray-800 transition-colors text-lg"
+          href="#contact"
+          className="bg-black text-white rounded-md px-8 py-4 hover:bg-gray-800 transition-colors text-xl md:text-2xl"
         >
           Work With Me
         </a>
@@ -35,8 +32,8 @@ export default function Intro() {
         <Image
           src="/ab_1.jpg"
           alt="Abigayle Peterson"
-          width={350}
-          height={600}
+          width={400} // Adjusted for larger display
+          height={650} // Adjusted for larger display
           objectFit="contain"
         />
       </div>

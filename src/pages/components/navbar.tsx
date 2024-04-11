@@ -11,25 +11,16 @@ export default function Navbar() {
   };
 
   return (
-    <>
-      <style jsx global>
-        {`
-          @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
-          .navbar * {
-            font-family: "Anton", sans-serif;
-          }
-        `}
-      </style>
       <nav className="bg-ab-accent navbar w-full sm:w-full">
         <div className="flex flex-wrap items-center justify-between mx-auto px-4">
-          <a
-            href="https://example.com"
+          <Link
+            href="/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <span className="self-center text-2xl font-semibold whitespace-nowrap">
               AP
             </span>
-          </a>
+          </Link>
           <button
             data-collapse-toggle="navbar-default"
             type="button"
@@ -62,12 +53,12 @@ export default function Navbar() {
             id="navbar-default"
           >
             <ul className="flex flex-col p-4 md:flex-row md:space-x-8 rtl:md:space-x-reverse mt-4 md:mt-0 rounded-lg md:border-0 w-full">
-              <Link
+              {/* <Link
                 href={"/past-work"}
                 className="hover:text-white hover:bg-black px-4 py-2 transition-colors duration-200 ease-in-out flex-grow text-center"
               >
                 Past Work
-              </Link>
+              </Link> */}
               <Link
                 href={"/services"}
                 className="hover:text-white hover:bg-black px-4 py-2 transition-colors duration-200 ease-in-out flex-grow text-center"
@@ -81,7 +72,7 @@ export default function Navbar() {
                 About
               </Link>
               <Link
-                href={"/book-me"}
+                href={"/#contact"}
                 className="hover:text-white hover:bg-black px-4 py-2 transition-colors duration-200 ease-in-out flex-grow text-center"
               >
                 Book Me
@@ -90,6 +81,5 @@ export default function Navbar() {
           </div>
         </div>
       </nav>
-    </>
   );
 }

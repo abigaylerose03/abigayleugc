@@ -11,12 +11,9 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <main className="bg-ab-page">
-      <Navbar />
       <Intro />
       <Experience />
-      <Services />
       <Contact />
-      <Workflow />
     </main>
   );
 }
