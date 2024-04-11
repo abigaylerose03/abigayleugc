@@ -19,7 +19,9 @@ export default function Intro() {
           <li>💸 Top Product Manager Voice on LinkedIn (11k+)</li>
         </ul>
         <p className="mb-10 text-xl md:text-2xl font-nunito">
-          Expert product storyteller who <span className="font-bold">transforms</span> viewers to loyal fans of your brand
+          Expert product storyteller who{" "}
+          <span className="font-bold">transforms</span> viewers to loyal fans of
+          your brand
         </p>
         <a
           href="#contact"
@@ -32,8 +34,8 @@ export default function Intro() {
         <Image
           src="/ab_1.jpg"
           alt="Abigayle Peterson"
-          width={400} 
-          height={650} 
+          width={400}
+          height={650}
           objectFit="contain"
         />
       </div>

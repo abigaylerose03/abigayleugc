@@ -9,9 +9,9 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        'tenor': ['Tenor Sans', 'sans-serif'], 
-        'unbounded': ['Unbounded', 'sans-serif'],
-        'nunito': ['Nunito Sans', 'sans-serif'],
+        tenor: ["Tenor Sans", "sans-serif"],
+        unbounded: ["Unbounded", "sans-serif"],
+        nunito: ["Nunito Sans", "sans-serif"],
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -27,12 +27,12 @@ const config: Config = {
         "ab-alt-bg": "#d3c2a6",
       },
       colors: {
-        'row-odd': '#d3c2a6',
-        'row-even': '#8C7961', 
+        "row-odd": "#d3c2a6",
+        "row-even": "#8C7961",
       },
       textColor: {
         "ab-accent": "#BFE3EE",
-        "ab-page": "#A18D75"
+        "ab-page": "#A18D75",
       },
     },
   },

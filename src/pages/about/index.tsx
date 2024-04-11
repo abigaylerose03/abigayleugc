@@ -1,5 +1,3 @@
-// pages/about.tsx
-
 import AboutCard from "./aboutcard";
 
 const About = () => {

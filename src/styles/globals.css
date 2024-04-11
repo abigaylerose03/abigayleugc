@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;400italic&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;400italic&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -11,7 +10,7 @@ html {
   scroll-behavior: smooth;
 }
 .navbar {
-  font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
 }
 :root {
   --foreground-rgb: 0, 0, 0;

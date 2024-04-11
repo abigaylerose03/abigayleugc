@@ -14,7 +14,9 @@ export default function Services() {
         </div>
 
         <div className="flex flex-col items-center text-center uppercase">
-          <h2 className="text-2xl font-bold underline font-unbounded">UGC Ads</h2>
+          <h2 className="text-2xl font-bold underline font-unbounded">
+            UGC Ads
+          </h2>
           <div className="text-xl">
             <p className="my-4 font-nunito">
               I create ads that effectively lead to increased conversions and
@@ -31,7 +33,9 @@ export default function Services() {
           </div>
         </div>
         <div className="flex flex-col items-center text-center uppercase">
-          <h2 className="text-2xl font-bold underline font-unbounded">UGC Photography</h2>
+          <h2 className="text-2xl font-bold underline font-unbounded">
+            UGC Photography
+          </h2>
           <div className="text-xl">
             <p className="my-4 font-nunito">
               I create aesthetic photos that don't compromise on ROI
