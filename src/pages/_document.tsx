@@ -9,7 +9,7 @@ class MyDocument extends Document {
           {/* Prefetch the font */}
           <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet" />
         </Head>
-        <body>
+        <body className='bg-ab-page'>
           <Navbar></Navbar>
           <Main />
           <NextScript />

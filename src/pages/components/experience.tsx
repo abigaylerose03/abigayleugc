@@ -28,6 +28,18 @@ export default function Experience() {
       { src: "/videos/test3.mp4", title: "Video 3" },
       { src: "/videos/test4.mp4", title: "Video 4" },
     ],
+    passion: [
+      { src: "/videos/test.mp4", title: "Video 1" },
+      { src: "/videos/test2.mp4", title: "Video 2" },
+      { src: "/videos/test3.mp4", title: "Video 3" },
+      { src: "/videos/test4.mp4", title: "Video 4" },
+    ],
+    music: [
+      { src: "/videos/test.mp4", title: "Video 1" },
+      { src: "/videos/test2.mp4", title: "Video 2" },
+      { src: "/videos/test3.mp4", title: "Video 3" },
+      { src: "/videos/test4.mp4", title: "Video 4" },
+    ],
   };
 
   return (

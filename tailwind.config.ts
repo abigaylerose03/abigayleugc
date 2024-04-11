@@ -19,6 +19,7 @@ const config: Config = {
         "ab-shape-2": "#A6988B",
         "ab-accent": "#BFE3EE",
         "form-container": "#715739",
+        "ab-alt-bg": "#d3c2a6",
       },
       colors: {
         'row-odd': '#d3c2a6',

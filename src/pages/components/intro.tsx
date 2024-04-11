@@ -32,8 +32,8 @@ export default function Intro() {
         <Image
           src="/ab_1.jpg"
           alt="Abigayle Peterson"
-          width={400} // Adjusted for larger display
-          height={650} // Adjusted for larger display
+          width={400} 
+          height={650} 
           objectFit="contain"
         />
       </div>
