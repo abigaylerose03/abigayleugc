@@ -164,7 +164,7 @@ export default function Contact() {
                   htmlFor="serviceUGC"
                   className="ml-3 block text-sm font-medium text-gray-700"
                 >
-                  UGC creation
+                  UGC ads
                 </label>
               </div>
               <div className="flex items-center">
@@ -179,7 +179,7 @@ export default function Contact() {
                   htmlFor="serviceStrategy"
                   className="ml-3 block text-sm font-medium text-gray-700"
                 >
-                  Creative strategy and consulting
+                  UGC photography
                 </label>
               </div>
               <div className="flex items-center">

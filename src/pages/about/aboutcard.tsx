@@ -12,8 +12,8 @@ const AboutCard = () => {
           src="/abbychina.jpeg"
           alt="Oval Image"
           className="object-cover w-32 h-48 rounded-full"
-          width={128}
-          height={192}
+          width={400}
+          height={600}
         />
       </div>
       <div className="absolute -right-10 top-40 z-10">
@@ -21,13 +21,13 @@ const AboutCard = () => {
           src="/abbyseekout.jpeg"
           alt="Rectangle Image"
           className="object-cover w-40 h-56 rounded-md shadow-lg"
-          width={160}
-          height={224}
+          width={500}
+          height={800}
         />
       </div>
       <div>
         <div className="pr-28">
-          <div className="text-5xl uppercase font-tenor">Who is Abygale?</div>
+          <div className="text-5xl uppercase font-tenor">Who is Abigayle?</div>
           <div className="flex items-center mt-2">
             <FontAwesomeIcon
               icon={faLocationDot}

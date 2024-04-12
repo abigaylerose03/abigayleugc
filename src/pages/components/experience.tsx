@@ -64,7 +64,7 @@ export default function Experience() {
       <h3 className="my-8 text-center text-2xl font-nunito">
         Content that creates <span className="italic">authentic</span>{" "}
         portrayals of your brand, increasing retention and engagement{" "}
-        <span className="italic">speedily.</span>
+        <span className="italic">quickly.</span>
       </h3>
 
       {/* Videos and Category Titles */}
