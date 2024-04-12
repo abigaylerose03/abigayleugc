@@ -36,7 +36,9 @@ export default function Contact() {
   const handleChange = (
     event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
-    const { name, value, type, checked } = event.target;
+    const { name, value, type } = event.target as HTMLInputElement;
+    const checked = (event.target as HTMLInputElement).checked;
+    
     if (type === "checkbox") {
       if (Object.keys(formState.services).includes(name)) {
         setFormState((prevState) => ({
@@ -65,7 +67,7 @@ export default function Contact() {
   return (
     <main className="flex flex-col items-center" id="contact">
       <h1 className="mt-8 text-ab-accent text-center uppercase text-4xl mb-8 font-unbounded">
-        Let's Make <span className="font-bold">Magic</span> Together
+        Let&apos;s Make <span className="font-bold">Magic</span> Together
       </h1>
       <div className="w-full md:w-5/6 lg:w-3/4 mx-auto bg-white shadow-md rounded-md p-8 min-h-[500px]">
         {" "}

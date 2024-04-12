@@ -38,7 +38,7 @@ export default function Services() {
           </h2>
           <div className="text-xl">
             <p className="my-4 font-nunito">
-              I create aesthetic photos that don't compromise on ROI
+              I create aesthetic photos that don&apos;t compromise on ROI
             </p>
             <p className="mb-2 font-nunito">This Includes:</p>
             <ul className="font-nunito">

@@ -48,8 +48,8 @@ const AboutCard = () => {
           </p>
           <p className="mt-2 leading-relaxed font-nunito">
             Abigayle led the 80+ team of volunteers to build out Magnify
-            Wellness's portfolio of initiatives, winning the title of 'Top
-            Global Health Innovations' from the Bay Area Global Health
+            Wellness&apos;s portfolio of initiatives, winning the title of &apos;Top
+            Global Health Innovations&apos; from the Bay Area Global Health
             competition as a college freshman with contenders from Stanford
             Medicine and more. Abigayle loves to mentor others, and has
             consulted hundreds of students and professionals on their passion
