@@ -62,6 +62,19 @@ const AboutCard = () => {
           </p>
         </div>
       </div>
+        {/* Text "Sound like a good fit?" */}
+        <div className="flex justify-center items-center mt-6">
+          <p className="text-xl md:text-2xl font-nunito mr-4">
+            Sound like a good fit?
+          </p>
+          {/* "Work With Me" button */}
+          <a
+            href="#contact"
+            className="bg-black text-white rounded-md px-8 py-4 hover:bg-gray-800 transition-colors font-nunito text-xl md:text-2xl"
+          >
+            Let's make magic together
+          </a>
+        </div>
     </div>
   );
 };
