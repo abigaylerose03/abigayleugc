@@ -7,18 +7,18 @@ export default function Contact() {
         Let&apos;s Make <span className="font-bold">Magic</span> Together
       </h1>
       <div className="flex flex-col items-center mt-0"> {/* Adjust the margin top (mt-16) as needed */}
-        <iframe
-          src="https://docs.google.com/forms/d/e/1FAIpQLSeepJC_xuCVwnEzVbl8OkZDb1mR5t5fUZ-xfy1POs2HoOa9FA/viewform?embedded=true"
-          width="200%"
-          height="1000vh" // Adjust the height as needed
-          frameborder="0"
-          marginheight="0"
-          marginwidth="0"
-          className="shadow-md rounded-md"
-          // style={{ maxWidth: "600px" }} // Limit maximum width for larger screens
-        >
-          Loading…
-        </iframe>
+           <iframe
+      src="https://docs.google.com/forms/d/e/1FAIpQLSeepJC_xuCVwnEzVbl8OkZDb1mR5t5fUZ-xfy1POs2HoOa9FA/viewform?embedded=true"
+      width="640"
+      height="1355"
+      frameBorder="0" // Update 'frameborder' to 'frameBorder'
+      marginHeight={0}
+      marginWidth={0}
+      className="mx-auto mt-10"
+    >
+      Loading…
+    </iframe>
+
       </div>
     </main>
   );

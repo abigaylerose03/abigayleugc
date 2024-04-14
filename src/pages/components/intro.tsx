@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 export default function Intro() {
   return (
@@ -29,7 +30,16 @@ export default function Intro() {
         >
           Work With Me
         </a>
+          <div className="flex justify-center items-center mt-10">
+          <a href="https://www.instagram.com/abbytes_03/" className="text-brown-500 mr-4">
+            <FaInstagram size={50} />
+          </a>
+           <a href="https://www.instagram.com/abbytes_03/" className="text-brown-500 mr-4">
+            <FaLinkedin size={50} />
+          </a>
+          </div>
       </div>
+
       <div className="flex justify-center items-center content-center">
         <Image
           src="/ab_1.jpg"
