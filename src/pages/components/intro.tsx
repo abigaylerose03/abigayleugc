@@ -34,10 +34,10 @@ export default function Intro() {
           <a href="https://www.instagram.com/abbytes_03/" className="text-brown-500 mr-4">
             <FaInstagram size={50} />
           </a>
-           <a href="https://www.instagram.com/abbytes_03/" className="text-brown-500 mr-4">
+           <a href="https://www.linkedin.com/in/abigaylepeterson/" className="text-brown-500 mr-4">
             <FaLinkedin size={50} />
           </a>
-           <a href="https://www.instagram.com/abbytes_03/" className="text-brown-500 mr-4">
+           <a href="mailto:abigayleugc@gmail.com" className="text-brown-500 mr-4">
             <FaEnvelope size={50} />
           </a>
           </div>
