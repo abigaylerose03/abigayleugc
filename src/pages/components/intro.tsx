@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaInstagram, FaLinkedin, FaEnvelope} from 'react-icons/fa';
 
 export default function Intro() {
   return (
@@ -36,6 +36,9 @@ export default function Intro() {
           </a>
            <a href="https://www.instagram.com/abbytes_03/" className="text-brown-500 mr-4">
             <FaLinkedin size={50} />
+          </a>
+           <a href="https://www.instagram.com/abbytes_03/" className="text-brown-500 mr-4">
+            <FaEnvelope size={50} />
           </a>
           </div>
       </div>
