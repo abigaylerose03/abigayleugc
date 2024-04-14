@@ -12,7 +12,7 @@ export default function Workflow() {
         <div className="flex flex-col items-center text-center uppercase">
           <h2 className="text-2xl font-bold underline">UGC ads</h2>
           <ul className="list-decimal text-xl font-nunito">
-            <li>Email to discuss logistics, concepts, and ideas</li>
+            <li>Email me to discuss logistics, concepts, and ideas</li>
             <li>Receive 1st draft of video</li>
             <li>Discuss revision requests (if any)</li>
             <li>Final video delivered via dropbox</li>
