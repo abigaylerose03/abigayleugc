@@ -15,7 +15,7 @@ export default function Services() {
 
         <div className="flex flex-col items-center text-center uppercase">
           <h2 className="text-2xl font-bold underline font-unbounded">
-            UGC Ads
+           🔎 UGC Ads
           </h2>
           <div className="text-xl">
             <p className="my-4 font-nunito">
@@ -24,17 +24,17 @@ export default function Services() {
             </p>
             <p className="mb-2 font-nunito">This Includes:</p>
             <ul className="font-nunito">
-              <li>Ideation Process</li>
-              <li>Script Writing</li>
-              <li>Video with Hook, Body, & CTA</li>
-              <li>Editing</li>
-              <li className="mb-4">Usage Routes</li>
+              <li>✅ Ideation Process</li>
+              <li>✅ Script Writing</li>
+              <li>✅ Direct-Response Marketing: Video with Hook, Body, & CTA</li>
+              <li>✅ Revisions and editing</li>
+              <li className="mb-4">✅ Usage Rates</li>
             </ul>
           </div>
         </div>
         <div className="flex flex-col items-center text-center uppercase">
           <h2 className="text-2xl font-bold underline font-unbounded">
-            UGC Photography
+           🔎 UGC Photography
           </h2>
           <div className="text-xl">
             <p className="my-4 font-nunito">
@@ -42,10 +42,10 @@ export default function Services() {
             </p>
             <p className="mb-2 font-nunito">This Includes:</p>
             <ul className="font-nunito">
-              <li>Ideation Process</li>
-              <li>Raw Images</li>
-              <li>Editing</li>
-              <li className="mb-4">Usage Rights</li>
+              <li>✅ Ideation Process</li>
+              <li>✅ Raw Images</li>
+              <li>✅ Revisions and editing </li>
+              <li className="mb-4">✅ Usage Rates</li>
             </ul>
           </div>
         </div>

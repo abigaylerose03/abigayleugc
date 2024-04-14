@@ -1,48 +1,41 @@
 export default function Workflow() {
   return (
-    <main className="bg-ab-accent flex flex-col items-center">
-      <h1 className="text-ab-page mt-8 text-center uppercase text-4xl font-unbounded mb-8">
+    <main className="bg-ab-accent flex flex-col items-center py-16">
+      <h1 className="text-ab-page text-4xl font-bold uppercase mb-8">
         My Workflow
       </h1>
-      <h2 className="text-center uppercase text-2xl mb-8 font-nunito">
-        Seamless Collaboration Abigayle x Brand
+      <h2 className="text-center text-2xl font-bold uppercase mb-8">
+        Seamless Collaboration: Abigayle x Brand
       </h2>
-      {/* 2 column grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-16">
-        <div className="flex flex-col items-center text-center uppercase">
-          <h2 className="text-2xl font-bold underline">UGC ads</h2>
-          <ul className="list-decimal text-xl font-nunito">
+        <div className="flex flex-col items-center text-center">
+          <h2 className="text-2xl font-bold mb-4">🔎 UGC ads</h2>
+          <ul className="list-disc text-lg font-nunito">
             <li>Email me to discuss logistics, concepts, and ideas</li>
             <li>Receive 1st draft of video</li>
             <li>Discuss revision requests (if any)</li>
-            <li>Final video delivered via dropbox</li>
+            <li>Final video delivered via Dropbox</li>
           </ul>
         </div>
-        <div className="flex flex-col items-center text-center uppercase">
-          <h2 className="text-2xl font-bold underline">UGC Photography</h2>
-          <ul className="list-decimal text-xl font-nunito">
+        <div className="flex flex-col items-center text-center">
+          <h2 className="text-2xl font-bold mb-4">🔎 UGC Photography</h2>
+          <ul className="list-disc text-lg font-nunito">
             <li>Email to discuss logistics, concepts, and ideas</li>
             <li>Choose from raw images</li>
             <li>Receive updated, finalized raw images (if any)</li>
           </ul>
         </div>
       </div>
-      
-      <div className="text-center mt-8 text-xl uppercase">
-        <h1 className="text-2xl font-bold underline">
-          Investment Requirements
-        </h1>
-        <ul className="list-decimal font-nunito">
+      <div className="text-center mt-12">
+        <h2 className="text-2xl font-bold mb-4">🔎 Investment Requirements</h2>
+        <ul className="list-disc text-lg font-nunito">
           <li>50% of Payment Due Upon Signing Contract</li>
           <li>Final 50% due after approval of final footage</li>
         </ul>
       </div>
-      <h1 className="text-center uppercase my-4 text-xl font-nunito">
-        email me:{" "}
-        <a
-          className="underline lowercase"
-          href="mailto:abigayleugc@gmail.com<s"
-        >
+      <h1 className="text-center mt-12 text-xl font-bold">
+        Let's level up your brand today. Email me at{" "}
+        <a className="text-blue-500 underline" href="mailto:abigayleugc@gmail.com">
           abigayleugc@gmail.com
         </a>
       </h1>
