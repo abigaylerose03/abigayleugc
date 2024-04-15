@@ -54,15 +54,14 @@ const AboutCard = () => {
             Medicine and more. Abigayle loves to mentor others, and has
             consulted hundreds of students and professionals on their passion
             projects and career, leading her to build a highly engaged 11k+
-            followers across LinkedIn and Instagram, and her Substack
-            newsletter. Abigayle’s work experience positions her as a{" "}
+            audience across LinkedIn, Instagram, and her career
+            newsletter known as Supercharged on Substack. Abigayle’s work experience positions her as a{" "}
             <span className="font-bold">unique</span> and{" "}
             <span className="font-bold">invaluable</span> creative partner in
             cultivating an engaged community for your next ad campaign.
           </p>
         </div>
-      </div>
-        {/* Text "Sound like a good fit?" */}
+         {/* Text "Sound like a good fit?" */}
         <div className="flex justify-center items-center mt-6">
           <p className="text-xl md:text-2xl font-nunito mr-4">
             Sound like a good fit?
@@ -72,9 +71,10 @@ const AboutCard = () => {
             href="#contact"
             className="bg-black text-white rounded-md px-8 py-4 hover:bg-gray-800 transition-colors font-nunito text-xl md:text-2xl"
           >
-            Let's make magic together
+            Work With Me
           </a>
         </div>
+      </div>
     </div>
   );
 };

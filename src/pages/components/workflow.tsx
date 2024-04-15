@@ -34,7 +34,7 @@ export default function Workflow() {
         </ul>
       </div>
       <h1 className="text-center mt-12 text-xl font-bold">
-        Let's level up your brand today. Email me at{" "}
+        Let&rsquo;s level up your brand today. Email me at{" "}
         <a className="text-blue-500 underline" href="mailto:abigayleugc@gmail.com">
           abigayleugc@gmail.com
         </a>

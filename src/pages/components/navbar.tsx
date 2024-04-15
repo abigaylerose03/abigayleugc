@@ -54,6 +54,13 @@ export default function Navbar() {
           style={{ zIndex: 9999 }}
         >
           <ul className="flex flex-col p-4 mt-4 rounded-lg w-full md:flex-row md:space-x-8 md:mt-0 md:border-0 text-xl rtl:md:space-x-reverse">
+              <Link
+              href={"/#experience"}
+              className="hover:text-white hover:bg-black px-4 py-2 transition-colors duration-200 ease-in-out flex-grow text-center"
+            >
+              Past Work
+            </Link>
+
             <Link
               href={"/services"}
               className="hover:text-white hover:bg-black px-4 py-2 transition-colors duration-200 ease-in-out flex-grow text-center"
