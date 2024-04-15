@@ -22,6 +22,12 @@ export default function Experience() {
       { src: "/videos/test3.mp4", title: "Video 3" },
       { src: "/videos/test4.mp4", title: "Video 4" },
     ],
+    photography: [
+      { src: "/images/photo1.jpg", title: "Photo 1" },
+      { src: "/images/photo2.jpg", title: "Photo 2" },
+      { src: "/images/photo3.jpg", title: "Photo 3" },
+      { src: "/images/photo4.jpg", title: "Photo 4" },
+    ],
     home: [
       { src: "/videos/test.mp4", title: "Video 1" },
       { src: "/videos/test2.mp4", title: "Video 2" },
@@ -68,7 +74,7 @@ export default function Experience() {
       </h3>
 
       {/* Videos and Category Titles */}
-      {Object.entries(videos).map(([category, videos], categoryIndex) => (
+      {Object.entries(videos).map(([category, items], categoryIndex) => (
         <div
           key={categoryIndex}
           style={{
@@ -82,9 +88,9 @@ export default function Experience() {
             {category.toUpperCase()}
           </h3>
           <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-8 px-4">
-            {videos.map((video, videoIndex) => (
+            {items.map((item, itemIndex) => (
               <div
-                key={videoIndex}
+                key={itemIndex}
                 className="flex justify-center items-center"
               >
                 <div
@@ -99,7 +105,7 @@ export default function Experience() {
                       aspectRatio: "9 / 16",
                     }}
                   >
-                    <source src={video.src} type="video/mp4" />
+                    <source src={item.src} type="video/mp4" />
                     Your browser does not support the video tag.
                   </video>
                   <p
@@ -108,7 +114,7 @@ export default function Experience() {
                       color: categoryIndex % 2 === 0 ? "#000000" : "#ffffff",
                     }}
                   >
-                    {video.title}
+                    {item.title}
                   </p>
                 </div>
               </div>
@@ -116,6 +122,27 @@ export default function Experience() {
           </div>
         </div>
       ))}
+
+      {/* Photography Section */}
+      <div className="mt-12">
+        <h3 className="text-2xl text-center py-4 font-unbounded tracking-wider bg-gray-500 text-white">
+          PHOTOGRAPHY THAT ATTRACTS, CONVERTS, AND BUILDS COMMUNITY
+        </h3>
+          {/* Photography Section */}
+      <div className="mt-12 grid grid-cols-2 gap-8">
+        <div className="grid grid-cols-2 gap-8">
+          {videos.photography.map((item, index) => (
+            <div key={index}>
+              <img src={item.src} alt={item.title} />
+            </div>
+          ))}
+        </div>
+        <div>
+          <img src="/images/large_photo.jpg" alt="Large Photo" />
+         
+        </div>
+      </div>
+      </div>
     </main>
   );
 }
