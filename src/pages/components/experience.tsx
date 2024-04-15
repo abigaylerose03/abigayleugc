@@ -22,12 +22,6 @@ export default function Experience() {
       { src: "/videos/test3.mp4", title: "Video 3" },
       { src: "/videos/test4.mp4", title: "Video 4" },
     ],
-    photography: [
-      { src: "/images/photo1.jpg", title: "Photo 1" },
-      { src: "/images/photo2.jpg", title: "Photo 2" },
-      { src: "/images/photo3.jpg", title: "Photo 3" },
-      { src: "/images/photo4.jpg", title: "Photo 4" },
-    ],
     home: [
       { src: "/videos/test.mp4", title: "Video 1" },
       { src: "/videos/test2.mp4", title: "Video 2" },
@@ -128,20 +122,26 @@ export default function Experience() {
         <h3 className="text-2xl text-center py-4 font-unbounded tracking-wider bg-gray-500 text-white">
           PHOTOGRAPHY THAT ATTRACTS, CONVERTS, AND BUILDS COMMUNITY
         </h3>
-          {/* Photography Section */}
-      <div className="mt-12 grid grid-cols-2 gap-8">
         <div className="grid grid-cols-2 gap-8">
-          {videos.photography.map((item, index) => (
-            <div key={index}>
-              <img src={item.src} alt={item.title} />
+          <div className="grid grid-cols-2 gap-8">
+            <div>
+              <img src="/images/photo1.jpg" alt="Photo 1" />
             </div>
-          ))}
+            <div>
+              <img src="/images/photo2.jpg" alt="Photo 2" />
+            </div>
+            <div>
+              <img src="/images/photo3.jpg" alt="Photo 3" />
+            </div>
+            <div>
+              <img src="/images/photo4.jpg" alt="Photo 4" />
+            </div>
+          </div>
+          <div>
+            <img src="/images/large_photo.jpg" alt="Large Photo" />
+          
+          </div>
         </div>
-        <div>
-          <img src="/images/large_photo.jpg" alt="Large Photo" />
-         
-        </div>
-      </div>
       </div>
     </main>
   );
