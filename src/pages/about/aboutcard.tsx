@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
-
+import Link from "next/link";
 
 const AboutCard = () => {
   return (
@@ -44,35 +44,40 @@ const AboutCard = () => {
             that uses a community-powered approach to connect youth to mental
             health support. She started Magnify Wellness as an iOS app and then
             expanded the passion project into a full-fledged international
-            organization.
+            registered nonprofit organization. 
+            Since 2020, Abigayle led the 80+ team to grow Magnify Wellness to <span className="font-bold">100+</span> chapter clubs worldwide,
+            <span className="font-bold"> 2k+</span> Instagram followers, and
+            <span className="font-bold"> 4k+</span> App Store downloads.
           </p>
           <p className="mt-2 leading-relaxed font-nunito">
-            Abigayle led the 80+ team of volunteers to build out Magnify
-            Wellness&apos;s portfolio of initiatives, winning the title of &apos;Top
+            Eventually, Magnify Wellness won the title of &apos;Top
             Global Health Innovations&apos; from the Bay Area Global Health
             competition as a college freshman with contenders from Stanford
-            Medicine and more. Abigayle loves to mentor others, and has
+            University&apos; School of Medicine, Yale School of Medicine, and more. Abigayle loves to mentor other people, and has
             consulted hundreds of students and professionals on their passion
-            projects and career, leading her to build a highly engaged 11k+
+            projects and career, leading her to build a highly engaged 12k+
             audience across LinkedIn, Instagram, and her career
             newsletter known as Supercharged on Substack. Abigayle’s work experience positions her as a{" "}
             <span className="font-bold">unique</span> and{" "}
             <span className="font-bold">invaluable</span> creative partner in
-            cultivating an engaged community for your next ad campaign.
+           authentically building your brand&apos; voice and community.
           </p>
         </div>
          {/* Text "Sound like a good fit?" */}
         <div className="flex justify-center items-center mt-6">
           <p className="text-xl md:text-2xl font-nunito mr-4">
-            Sound like a good fit?
+            Sound like a good fit? 
+            Email me abigayleugc@gmail.com
           </p>
           {/* "Work With Me" button */}
-          <a
-            href="#contact"
-            className="bg-black text-white rounded-md px-8 py-4 hover:bg-gray-800 transition-colors font-nunito text-xl md:text-2xl"
-          >
-            Work With Me
-          </a>
+        
+          <Link
+              href={"/#contact"}
+             className="bg-black text-white rounded-md px-8 py-4 hover:bg-gray-800 transition-colors font-nunito text-xl md:text-2xl"
+            >
+              Book Me
+            </Link>
+
         </div>
       </div>
     </div>

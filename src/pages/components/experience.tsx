@@ -10,64 +10,46 @@ function splitText(text: string, maxWordsPerLine: number): string[] {
 }
 
 export default function Experience() {
-  // Edit/add for hexagon text
   const items = ["1-3 Day Turnaround Time", "Item 2", "Item 3"];
   const maxWordsPerLine = 2;
 
-  // add and change videos and content here
   const videos = {
     beauty: [
-      { src: "/videos/test.mp4", title: "Video 1" },
-      { src: "/videos/test2.mp4", title: "Video 2" },
-      { src: "/videos/test3.mp4", title: "Video 3" },
-      { src: "/videos/test4.mp4", title: "Video 4" },
+      { src: "/videos/bricespray.MOV", title: "Rice Water Spray - ProBliva (Product Testimonial / Voiceover)" },
+      { src: "/videos/bhairserum.MOV", title: "KBeauty Hair Serum - Mise en Scene (Tutorial)" },
+      { src: "/videos/bpeachlily.MOV", title: "Glass Skin Care Kit - PeachLily (Aesthetic / Before After)" },
+      { src: "/videos/test.mp4", title: "Your brand! ;)" },
     ],
     home: [
-      { src: "/videos/test.mp4", title: "Video 1" },
-      { src: "/videos/test2.mp4", title: "Video 2" },
-      { src: "/videos/test3.mp4", title: "Video 3" },
-      { src: "/videos/test4.mp4", title: "Video 4" },
+      { src: "/videos/hasmr.MOV", title: "Kitchen Finds On a Budget - Amazon (ASMR unboxing)" },
+      { src: "/videos/hcoffee.MOV", title: "KClassic Coffee Machine - Keurig (Competitor Comparison / Green Screen)" },
+      { src: "/videos/hcart.MOV", title: "3 Tier Cart - Amazon (Vlog)" },
+      { src: "/videos/test2.mp4", title: "Your brand! ;)" },
     ],
     tech: [
-      { src: "/videos/test.mp4", title: "Video 1" },
-      { src: "/videos/test2.mp4", title: "Video 2" },
-      { src: "/videos/test3.mp4", title: "Video 3" },
-      { src: "/videos/test4.mp4", title: "Video 4" },
+      { src: "/videos/abloom.MOV",  title: "Mobile App - Bloom (Skit)" },
+      { src: "/videos/avercel.MOV", title: "Web App - Vercel (Competitor Comparison / Skit)" },
+      { src: "/videos/apomo.MOV", title: "Website - Pomodoro.io (Vlog)" },
+      { src: "/videos/test3.mp4", title: "Your brand! ;)" },
     ],
     wellness: [
-      { src: "/videos/test.mp4", title: "Video 1" },
-      { src: "/videos/test2.mp4", title: "Video 2" },
-      { src: "/videos/test3.mp4", title: "Video 3" },
-      { src: "/videos/test4.mp4", title: "Video 4" },
+      { src: "/videos/wsleepspray.MOV",  title: "Relexation Spray - Nature's Beauty (Product Review)" },
+      { src: "/videos/wmag.MOV", title: "Magnesium Dietary Supplement - NatureMade (Product Testimonial)" },
+      { src: "/videos/wmaggie.MOV", title: "Mental Health iOS App - Magnify Wellness (Product Review / Voice Over)" },
+      { src: "/videos/test4.mp4", title: "Your brand! ;)" },
     ],
   };
 
   return (
     <main className="">
       <h1 className="mt-8 text-ab-accent text-center text-4xl uppercase font-unbounded">
-        Past Work
+        No bc, my <span style={{fontWeight: "bold"}}>past work</span> aims to be scroll stoppin 😜
       </h1>
 
-      {/* Hexagon headers -- temporarily removed for now */}
-      <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-        {items.map((item, index) => {
-          const lines = splitText(item, maxWordsPerLine);
-          const startY = 50 - (lines.length - 1) * 10;
-          return (
-            <div key={index} className="flex justify-center">
-            </div>
-          );
-        })}
-      </div>
-
-      {/* Text */}
       <h3 className="my-8 text-center text-2xl font-nunito">
-        Content that creates <span className="italic">authentic</span>{" "}
-        portrayals of your brand, increasing retention and engagement{" "}
-        <span className="italic">quickly.</span>
+        UGC Ad Examples
       </h3>
 
-      {/* Videos and Category Titles */}
       {Object.entries(videos).map(([category, items], categoryIndex) => (
         <div
           key={categoryIndex}
@@ -94,9 +76,12 @@ export default function Experience() {
                   <video
                     controls
                     style={{
-                      maxWidth: "100%",
+                      width: "100%",
                       height: "auto",
-                      aspectRatio: "9 / 16",
+                      
+                      objectFit: "cover",
+                      objectPosition: "center",
+                      backgroundColor: "white",
                     }}
                   >
                     <source src={item.src} type="video/mp4" />
@@ -117,31 +102,22 @@ export default function Experience() {
         </div>
       ))}
 
-      {/* Photography Section */}
       <div className="mt-12">
         <h3 className="text-2xl text-center py-4 font-unbounded tracking-wider bg-gray-500 text-white">
-          PHOTOGRAPHY THAT ATTRACTS, CONVERTS, AND BUILDS COMMUNITY
+          PHOTOGRAPHY THAT HAS THE AESTHETICS TO BUILD BRAND LOYALISTS
         </h3>
-        <div className="grid grid-cols-2 gap-8">
-          <div className="grid grid-cols-2 gap-8">
-            <div>
-              <img src="/images/photo1.jpg" alt="Photo 1" />
-            </div>
-            <div>
-              <img src="/images/photo2.jpg" alt="Photo 2" />
-            </div>
-            <div>
-              <img src="/images/photo3.jpg" alt="Photo 3" />
-            </div>
-            <div>
-              <img src="/images/photo4.jpg" alt="Photo 4" />
-            </div>
-          </div>
+        <div className="grid grid-cols-2 gap-4">
+          <img src="/images/photo.png" alt="Large Photo" />
           <div>
-            <img src="/images/large_photo.jpg" alt="Large Photo" />
-          
+	          <h2 className="text-2xl text-center py-4 font-unbounded tracking-wider">Some stats of my growth 🚀</h2>
+	          <h3 className="font-nunito"> Founder - Magnify Wellness (100+ chapter clubs, 80+ volunteers, 4k+ app downloads, 1M+ impressions)</h3>
+	          <h3 className="font-nunito"> Content Creator and Newsletter Writer (500+ Subscribers, 12k+ followers across LinkedIn and Instagram)</h3>
+	          <h3 className="font-nunito"> Mentor (Top Mentor of 2023 on Topmate, featured on New York Times Square)</h3>
+	          <h3 className="font-nunito"> Speaker (invited to speak on 100+ podcast, hackathons, school events)</h3>
+	          <h2 className="font-nunito"><span style={{fontWeight: "bold"}}>My story continues...</span></h2>
           </div>
-        </div>
+
+      </div>
       </div>
     </main>
   );
