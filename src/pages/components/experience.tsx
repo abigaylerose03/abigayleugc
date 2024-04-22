@@ -15,27 +15,27 @@ export default function Experience() {
 
   const videos = {
     beauty: [
-      { src: "/videos/bricespray.MOV", title: "Rice Water Spray - ProBliva (Product Testimonial / Voiceover)" },
-      { src: "/videos/bhairserum.MOV", title: "KBeauty Hair Serum - Mise en Scene (Tutorial)" },
+      { src: "/videos/bricespray.MOV", title: "Rice Water Spray - ProBliva (Before After / Voiceover)" },
+      { src: "/videos/bhairserum.MOV", title: "KBeauty Hair Serum - Mise en Scene (Demonstration)" },
       { src: "/videos/bpeachlily.MOV", title: "Glass Skin Care Kit - PeachLily (Aesthetic / Before After)" },
       { src: "/videos/test.mp4", title: "Your brand! ;)" },
     ],
     home: [
-      { src: "/videos/hasmr.MOV", title: "Kitchen Finds On a Budget - Amazon (ASMR unboxing)" },
+      { src: "/videos/hasmr.MOV", title: "Kitchen Finds On a Budget - Amazon (Unboxing)" },
       { src: "/videos/hcoffee.MOV", title: "KClassic Coffee Machine - Keurig (Competitor Comparison / Green Screen)" },
       { src: "/videos/hcart.MOV", title: "3 Tier Cart - Amazon (Vlog)" },
       { src: "/videos/test2.mp4", title: "Your brand! ;)" },
     ],
     tech: [
       { src: "/videos/abloom.MOV",  title: "Mobile App - Bloom (Skit)" },
-      { src: "/videos/avercel.MOV", title: "Web App - Vercel (Competitor Comparison / Skit)" },
-      { src: "/videos/apomo.MOV", title: "Website - Pomodoro.io (Vlog)" },
+      { src: "/videos/avercel.MOV", title: "Web App - Vercel (Competitor Comparison)" },
+      { src: "/videos/apomo.MOV", title: "Website - Pomodoro.io (Demonstration)" },
       { src: "/videos/azhang.MOV", title: "Website - Money Bundle Kit by Lillian Zhang (Testimonial)" },
     ],
     wellness: [
-      { src: "/videos/wsleepspray.MOV",  title: "Relexation Spray - Nature's Beauty (Product Review)" },
-      { src: "/videos/wmag.MOV", title: "Magnesium Dietary Supplement - NatureMade (Product Testimonial)" },
-      { src: "/videos/wmaggie.MOV", title: "Mental Health iOS App - Magnify Wellness (Product Review / Voice Over)" },
+      { src: "/videos/wsleepspray.MOV",  title: "Relexation Spray - Nature's Beauty (Testimonial)" },
+      { src: "/videos/wmag.MOV", title: "Magnesium Dietary Supplement - NatureMade (Testimonial)" },
+      { src: "/videos/wmaggi.MOV", title: "Mental Health iOS App - Magnify Wellness (Demonstration)" },
       { src: "/videos/test4.mp4", title: "Your brand! ;)" },
     ],
   };
