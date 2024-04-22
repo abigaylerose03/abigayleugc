@@ -30,7 +30,7 @@ export default function Experience() {
       { src: "/videos/abloom.MOV",  title: "Mobile App - Bloom (Skit)" },
       { src: "/videos/avercel.MOV", title: "Web App - Vercel (Competitor Comparison / Skit)" },
       { src: "/videos/apomo.MOV", title: "Website - Pomodoro.io (Vlog)" },
-      { src: "/videos/test3.mp4", title: "Your brand! ;)" },
+      { src: "/videos/azhang.MOV", title: "Website - Money Bundle Kit by Lillian Zhang (Testimonial)" },
     ],
     wellness: [
       { src: "/videos/wsleepspray.MOV",  title: "Relexation Spray - Nature's Beauty (Product Review)" },
