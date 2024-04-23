@@ -20,15 +20,15 @@ export default function Services() {
           <div className="text-xl">
             <p className="my-4 font-nunito">
               I create ads that effectively lead to increased conversions and
-              sales.
+              sales
             </p>
             <p className="mb-2 font-nunito">This Includes:</p>
             <ul className="font-nunito">
-              <li>✅ Ideation Process</li>
-              <li>✅ Script Writing</li>
-              <li>✅ Direct-Response Marketing: Video with Hook, Body, & CTA</li>
-              <li>✅ Revisions and editing</li>
-              <li className="mb-4">✅ Usage Rates</li>
+              <li>✅ Concept ideation process</li>
+              <li>✅ Script writing</li>
+              <li>✅ Direct-response marketing: video with hook, body, and CTA</li>
+              <li>✅ Revisions (if any)</li>
+              <li className="mb-4">✅ Paid ad usage rights</li>
             </ul>
           </div>
         </div>
@@ -38,14 +38,14 @@ export default function Services() {
           </h2>
           <div className="text-xl">
             <p className="my-4 font-nunito">
-              I create aesthetic photos that don&apos;t compromise on ROI
+              I create aesthetic photos with a brand&apos;s voice as top of mind
             </p>
             <p className="mb-2 font-nunito">This Includes:</p>
             <ul className="font-nunito">
-              <li>✅ Ideation Process</li>
-              <li>✅ Raw Images</li>
+              <li>✅ Ideation process</li>
+              <li>✅ Raw images</li>
               <li>✅ Revisions and editing </li>
-              <li className="mb-4">✅ Usage Rates</li>
+              <li className="mb-4">✅ Paid ad usage rights</li>
             </ul>
           </div>
         </div>
