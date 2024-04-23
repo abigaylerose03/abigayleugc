@@ -22,15 +22,15 @@ export default function Workflow() {
           <ul className="list-disc text-lg font-nunito">
             <li>Email to discuss logistics, concepts, and ideas</li>
             <li>Choose from raw images</li>
-            <li>Receive updated, finalized raw images (if any)</li>
+            <li>Receive updated, finalized images (if any)</li>
           </ul>
         </div>
       </div>
       <div className="text-center mt-12">
         <h2 className="text-2xl font-bold mb-4">🔎 Investment Requirements</h2>
         <ul className="list-disc text-lg font-nunito">
-          <li>50% of Payment Due Upon Signing Contract</li>
-          <li>Final 50% due after approval of final footage</li>
+          <li>50% of payment due after signing contract</li>
+          <li>Final 50% due after the approval of final footage</li>
         </ul>
       </div>
       <h1 className="text-center mt-12 text-xl font-bold">
