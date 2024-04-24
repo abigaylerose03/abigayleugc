@@ -1,9 +1,9 @@
 import Image from "next/image";
-import { FaInstagram, FaLinkedin, FaEnvelope} from 'react-icons/fa';
+import { FaInstagram, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 export default function Intro() {
   return (
-    <main className="grid grid-cols-1 md:grid-cols-2 gap-12 p-12 content-center">
+    <main className="grid grid-cols-1 md:grid-cols-2 gap-12 p-12 object-fit:cover content-center">
       <div className="text-center">
         <h2 className="uppercase text-ab-accent font-bold text-2xl mb-6 md:text-2xl font-unbounded tracking-wide">
           Meet Your Creative Partner
@@ -30,27 +30,29 @@ export default function Intro() {
         >
           Work With Me
         </a>
-          <div className="flex justify-center items-center mt-10">
+        <div className="flex justify-center items-center mt-10">
           <a href="https://www.instagram.com/abbytes_03/" className="text-brown-500 mr-4">
             <FaInstagram size={50} />
           </a>
-           <a href="https://www.linkedin.com/in/abigaylepeterson/" className="text-brown-500 mr-4">
+          <a href="https://www.linkedin.com/in/abigaylepeterson/" className="text-brown-500 mr-4">
             <FaLinkedin size={50} />
           </a>
-           <a href="mailto:abigayleugc@gmail.com" className="text-brown-500 mr-4">
+          <a href="mailto:abigayleugc@gmail.com" className="text-brown-500 mr-4">
             <FaEnvelope size={50} />
           </a>
-          </div>
+        </div>
       </div>
 
       <div className="flex justify-center items-center content-center">
-        <Image
-          src="/ab_1.jpg"
-          alt="Abigayle Peterson"
-          width={400}
-          height={650}
-          objectFit="contain"
-        />
+        <div className="relative w-full max-w-full h-80 md:w-96 md:h-96">
+          <Image
+            src="/ab_1.jpg"
+            alt="Abigayle Peterson"
+            layout="fill"
+            objectFit="cover"
+            className="sm:object-contain"
+          />
+        </div>
       </div>
     </main>
   );

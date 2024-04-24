@@ -15,7 +15,7 @@ export default function Services() {
 
         <div className="flex flex-col items-center text-center uppercase">
           <h2 className="text-2xl font-bold underline font-unbounded">
-           🔎 UGC Ads
+           🔎 UGC Paid Ads and UGC Organic
           </h2>
           <div className="text-xl">
             <p className="my-4 font-nunito">
@@ -28,7 +28,8 @@ export default function Services() {
               <li>✅ Script writing</li>
               <li>✅ Direct-response marketing: video with hook, body, and CTA</li>
               <li>✅ Revisions (if any)</li>
-              <li className="mb-4">✅ Paid ad usage rights</li>
+              <li className="mb-4">➕ Add-ons (Paid ads): Paid ad usage rights raw footage, multiple hooks, rush fee (1-3 days), monthly retainers</li>
+              <li className="mb-4">➕ Add-ons (Organic content): Monthly retainers, raw footage, UGC photos, product photography, rush fee (1-3 days), re-films, exclusitivity</li>
             </ul>
           </div>
         </div>
@@ -45,7 +46,7 @@ export default function Services() {
               <li>✅ Ideation process</li>
               <li>✅ Raw images</li>
               <li>✅ Revisions and editing </li>
-              <li className="mb-4">✅ Paid ad usage rights</li>
+           
             </ul>
           </div>
         </div>

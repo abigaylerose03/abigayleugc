@@ -14,32 +14,28 @@ export default function Experience() {
   const maxWordsPerLine = 2;
 
   const videos = {
-    beauty: [
+    ads: [
  
-      { src: "/videos/bricespray.MOV", title: "Rice Water Spray - ProBliva (Competitor Comparison)" }, // tutorial?
-      { src: "/videos/bhairserum.MOV", title: "KBeauty Hair Serum - Mise en Scene (Tutorial)" }, // add step 1, step 2
-      { src: "/videos/bpeachlily.MOV", title: "Glass Skin Care Kit - PeachLily (Aesthetic)" },
+      { src: "/videos/ricewater.MOV", title: "Rice Water Spray - ProBliva (Problem / Solution)" }, // tutorial?
+      { src: "/videos/bpeachlily.MOV", title: "Glass Skin Care Kit - PeachLily (Demonstration)" },
+      { src: "/videos/hcoffee.MOV", title: "KClassic Coffee Machine - Keurig (Greenscreen)" },
+      { src: "/videos/cart.MOV", title: "3 Tier Cart - Amazon (Problem / Solution)" },
+      { src: "/videos/wmag.MOV",  title: "Magenesium Dietary Supplement - NatureMade (Testimonial)" },
+      { src: "/videos/abloom.MOV",  title: "Mobile App - Bloom (Skit)" },
+      { src: "/videos/apomo.MOV", title: "Website - Pomofocus.io (Competitor Comparison)" },
+      { src: "/videos/wsleepspray.MOV",  title: "Relexation Spray - Nature's Beauty (Demonstration)" },
+      { src: "/videos/bhairserum.MOV", title: "KBeauty Hair Serum - Mise en Scene (Testimonial)" }, // add step 1, step 2
     ],
-    home: [
-      { src: "/videos/hcoffee.MOV", title: "KClassic Coffee Machine - Keurig (Competitor Comparison)" },
-      { src: "/videos/hcart.MOV", title: "3 Tier Cart - Amazon (Lifestyle)" },
+    organic: [
+      { src: "/videos/aesthetic.MOV", title: "Dinner Date ft. Air Fryer by Philips (Aesthetic)" },
+      { src: "/videos/hasmr.MOV", title: "Dining Table - Amazon (ASMR)" },
+      { src: "/videos/wmaggi.MOV", title: "Mobile App - Magnify Wellness (Relatable)" },
+      { src: "/videos/avercel.MOV", title: "Web App - Vercel (GRWM - Engineer Edition)" },
+
       // process - daily morning routine
       // visually satisfying - tacos
     ],
-    tech: [
-      { src: "/videos/abloom.MOV",  title: "Mobile App - Bloom (Skit)" },
-      { src: "/videos/avercel.MOV", title: "Web App - Vercel (Competitor Comparison)" },
-      { src: "/videos/apomo.MOV", title: "Website - Pomofocus.io (Demonstration)" },
-      { src: "/videos/azhang.MOV", title: "Website - Money Bundle Kit by Lillian Zhang (Direct Testimonial)" },
-      // green screen article - new
-    ],
-    wellness: [
-      { src: "/videos/wsleepspray.MOV",  title: "Relexation Spray - Nature's Beauty (Tutorial)" },
-      { src: "/videos/wmag.MOV", title: "Magnesium Dietary Supplement - NatureMade (Direct Testimonial)" },
-      { src: "/videos/wmaggi.MOV", title: "Daily Morning Routine ft. Magnify Wellness (Process)" },
-      // experience grwm for my wedding (columbia athletic club edition))
-   
-    ],
+
   };
 
   return (
@@ -49,7 +45,7 @@ export default function Experience() {
       </h1>
 
       <h3 className="my-8 text-center text-2xl font-nunito">
-        UGC Ad Examples
+        UGC Paid Media and UGC Organic Examples
       </h3>
 
       {Object.entries(videos).map(([category, items], categoryIndex) => (
@@ -108,19 +104,46 @@ export default function Experience() {
         <h3 className="text-2xl text-center py-4 font-unbounded tracking-wider bg-gray-500 text-white">
           PHOTOGRAPHY THAT HAS THE AESTHETICS TO BUILD BRAND LOYALISTS
         </h3>
-        <div className="grid grid-cols-2 gap-4">
-          <img src="/images/photo.png" alt="Large Photo" />
-          <div>
-	          <h2 className="text-2xl text-center py-4 font-unbounded tracking-wider">Some stats of my growth 🚀</h2>
-	          <h3 className="font-nunito"> Founder - Magnify Wellness (100+ chapter clubs, 80+ volunteers, 4k+ app downloads, 1M+ impressions)</h3>
-	          <h3 className="font-nunito"> Content Creator and Newsletter Writer (500+ Subscribers, 12k+ followers across LinkedIn and Instagram)</h3>
-	          <h3 className="font-nunito"> Mentor (Top Mentor of 2023 on Topmate, featured on New York Times Square)</h3>
-	          <h3 className="font-nunito"> Speaker (invited to speak on 100+ podcast, hackathons, school events)</h3>
-	          <h2 className="font-nunito"><span style={{fontWeight: "bold"}}>My story continues...</span></h2>
-          </div>
+		<div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+		  <img src="/images/photo.png" alt="Large Photo" className="w-full md:w-auto" />
+		  <div className="flex flex-col justify-center">
+		    <h2 className="text-2xl text-center py-4 font-unbounded tracking-wider">Some stats of my growth 🚀</h2>
+		    <div className="px-6 py-8">
+		      <details className="mb-4">
+		        <summary className="text-lg font-semibold cursor-pointer">⚡ Founder - Magnify Wellness</summary>
+		        <p className="font-nunito ml-4 mt-2">
+		          100+ chapter clubs, 80+ volunteers, 4k+ app downloads, 1M+ impressions
+		        </p>
+		      </details>
+		      <details className="mb-4">
+		        <summary className="text-lg font-semibold cursor-pointer">⚡ Content Creator and Newsletter Writer</summary>
+		        <p className="font-nunito ml-4 mt-2">
+		          500+ Subscribers, 12k+ followers across LinkedIn and Instagram
+		        </p>
+		      </details>
+		      <details className="mb-4">
+		        <summary className="text-lg font-semibold cursor-pointer">⚡ Mentor</summary>
+		        <p className="font-nunito ml-4 mt-2">
+		          Top Mentor of 2023 on Topmate, featured on New York Times Square
+		        </p>
+		      </details>
+		      <details className="mb-4">
+		        <summary className="text-lg font-semibold cursor-pointer">⚡ Speaker</summary>
+		        <p className="font-nunito ml-4 mt-2">
+		          Invited to speak on 100+ podcasts, hackathons, school events.  
+		          <a className="text-blue hover:text-blue" href="https://abigayle.notion.site/65e25e57e942402f97dd8c5d702ce299?v=651b994fde2746a3b57c25c532d3ee45&pvs=4"> Click me for list of all speaking engagements</a>
+
+		        </p>
+
+		      </details>
+		    
+		    </div>
+		
 
       </div>
       </div>
+      </div>
+
     </main>
   );
 }

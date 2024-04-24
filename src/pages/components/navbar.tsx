@@ -11,7 +11,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="bg-ab-accent navbar w-full z-50">
+    <nav className="bg-ab-accent navbar w-screen z-50">
       <div className="flex flex-wrap items-center justify-between mx-auto px-4">
         <Link
           href="/"
@@ -49,7 +49,7 @@ export default function Navbar() {
         <div
           className={`${
             isMenuOpen ? "flex" : "hidden"
-          } w-full md:flex md:w-auto`}
+          } w-screen md:w-auto md:flex md:w-auto`}
           id="navbar-default"
           style={{ zIndex: 9999 }}
         >
