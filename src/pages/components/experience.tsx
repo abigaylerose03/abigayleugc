@@ -15,28 +15,30 @@ export default function Experience() {
 
   const videos = {
     beauty: [
-      { src: "/videos/bricespray.MOV", title: "Rice Water Spray - ProBliva (Before After / Voiceover)" },
-      { src: "/videos/bhairserum.MOV", title: "KBeauty Hair Serum - Mise en Scene (Demonstration)" },
-      { src: "/videos/bpeachlily.MOV", title: "Glass Skin Care Kit - PeachLily (Aesthetic / Before After)" },
-      { src: "/videos/test.mp4", title: "Your brand! ;)" },
+ 
+      { src: "/videos/bricespray.MOV", title: "Rice Water Spray - ProBliva (Competitor Comparison)" }, // tutorial?
+      { src: "/videos/bhairserum.MOV", title: "KBeauty Hair Serum - Mise en Scene (Tutorial)" }, // add step 1, step 2
+      { src: "/videos/bpeachlily.MOV", title: "Glass Skin Care Kit - PeachLily (Aesthetic)" },
     ],
     home: [
-      { src: "/videos/hasmr.MOV", title: "Kitchen Finds On a Budget - Amazon (Unboxing)" },
-      { src: "/videos/hcoffee.MOV", title: "KClassic Coffee Machine - Keurig (Competitor Comparison / Green Screen)" },
-      { src: "/videos/hcart.MOV", title: "3 Tier Cart - Amazon (Vlog)" },
-      { src: "/videos/test2.mp4", title: "Your brand! ;)" },
+      { src: "/videos/hcoffee.MOV", title: "KClassic Coffee Machine - Keurig (Competitor Comparison)" },
+      { src: "/videos/hcart.MOV", title: "3 Tier Cart - Amazon (Lifestyle)" },
+      // process - daily morning routine
+      // visually satisfying - tacos
     ],
     tech: [
       { src: "/videos/abloom.MOV",  title: "Mobile App - Bloom (Skit)" },
       { src: "/videos/avercel.MOV", title: "Web App - Vercel (Competitor Comparison)" },
-      { src: "/videos/apomo.MOV", title: "Website - Pomodoro.io (Demonstration)" },
-      { src: "/videos/azhang.MOV", title: "Website - Money Bundle Kit by Lillian Zhang (Testimonial)" },
+      { src: "/videos/apomo.MOV", title: "Website - Pomofocus.io (Demonstration)" },
+      { src: "/videos/azhang.MOV", title: "Website - Money Bundle Kit by Lillian Zhang (Direct Testimonial)" },
+      // green screen article - new
     ],
     wellness: [
-      { src: "/videos/wsleepspray.MOV",  title: "Relexation Spray - Nature's Beauty (Testimonial)" },
-      { src: "/videos/wmag.MOV", title: "Magnesium Dietary Supplement - NatureMade (Testimonial)" },
-      { src: "/videos/wmaggi.MOV", title: "Mental Health iOS App - Magnify Wellness (Demonstration)" },
-      { src: "/videos/test4.mp4", title: "Your brand! ;)" },
+      { src: "/videos/wsleepspray.MOV",  title: "Relexation Spray - Nature's Beauty (Tutorial)" },
+      { src: "/videos/wmag.MOV", title: "Magnesium Dietary Supplement - NatureMade (Direct Testimonial)" },
+      { src: "/videos/wmaggi.MOV", title: "Daily Morning Routine ft. Magnify Wellness (Process)" },
+      // experience grwm for my wedding (columbia athletic club edition))
+   
     ],
   };
 
@@ -71,7 +73,7 @@ export default function Experience() {
               >
                 <div
                   className="video-container"
-                  style={{ maxWidth: "240px", width: "100%", margin: "auto" }}
+                  style={{ marginLeft: "200px", maxWidth: "240px", width: "100%", margin: "auto" }}
                 >
                   <video
                     controls
