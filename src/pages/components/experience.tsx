@@ -19,10 +19,10 @@ export default function Experience() {
       { src: "/videos/ricewater.MOV", title: "Rice Water Spray - ProBliva (Problem / Solution)" }, // tutorial?
       { src: "/videos/hcoffee.MOV", title: "KClassic Coffee Machine - Keurig (Greenscreen)" },
       { src: "/videos/cart.MOV", title: "3 Tier Cart - Amazon (Problem / Solution)" },
-      { src: "/videos/wmag.MOV",  title: "Magenesium Dietary Supplement - NatureMade (Testimonial)" },
+      { src: "/videos/newmag.MOV",  title: "Magenesium Dietary Supplement - NatureMade (Testimonial)" },
       { src: "/videos/abloom.MOV",  title: "Mobile App - Bloom (Skit)" },
       { src: "/videos/apomo.MOV", title: "Website - Pomofocus.io (Competitor Comparison)" },
-      { src: "/videos/wsleepspray.MOV",  title: "Relexation Spray - Nature's Beauty (Demonstration)" },
+      { src: "/videos/sleeps.MOV",  title: "Relexation Spray - Nature's Beauty (Demonstration)" },
       { src: "/videos/bhairserum.MOV", title: "KBeauty Hair Serum - Mise en Scene (Testimonial)" }, // add step 1, step 2
       
     ],
