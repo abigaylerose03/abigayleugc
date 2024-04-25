@@ -27,10 +27,10 @@ export default function Experience() {
       { src: "/videos/bhairserum.MOV", title: "KBeauty Hair Serum - Mise en Scene (Testimonial)" }, // add step 1, step 2
     ],
     organic: [
-      { src: "/videos/aesthetic.MOV", title: "Dinner Date ft. Air Fryer by Philips (Aesthetic)" },
+      { src: "/videos/aesthetic.MOV", title: "Dinner Date ft. Air Fryer - Philips (Aesthetic)" },
       { src: "/videos/hasmr.MOV", title: "Dining Table - Amazon (ASMR)" },
       { src: "/videos/wmaggi.MOV", title: "Mobile App - Magnify Wellness (Relatable)" },
-      { src: "/videos/avercel.MOV", title: "Web App - Vercel (GRWM - Engineer Edition)" },
+      { src: "/videos/avercel.MOV", title: "Web App - Vercel (GRWM)" },
 
       // process - daily morning routine
       // visually satisfying - tacos
