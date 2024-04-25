@@ -43,7 +43,7 @@ export default function Intro() {
         </div>
       </div>
 
-      <div className="flex justify-center items-center content-center">
+       <div className="flex justify-center items-center content-center">
         <div className="relative w-full max-w-full h-80 md:w-96 md:h-96">
           <Image
             src="/ab_1.jpg"
@@ -54,6 +54,7 @@ export default function Intro() {
           />
         </div>
       </div>
+
     </main>
   );
 }

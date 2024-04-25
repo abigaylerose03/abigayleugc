@@ -17,7 +17,6 @@ export default function Experience() {
     ads: [
  
       { src: "/videos/ricewater.MOV", title: "Rice Water Spray - ProBliva (Problem / Solution)" }, // tutorial?
-      { src: "/videos/bpeachlily.MOV", title: "Glass Skin Care Kit - PeachLily (Demonstration)" },
       { src: "/videos/hcoffee.MOV", title: "KClassic Coffee Machine - Keurig (Greenscreen)" },
       { src: "/videos/cart.MOV", title: "3 Tier Cart - Amazon (Problem / Solution)" },
       { src: "/videos/wmag.MOV",  title: "Magenesium Dietary Supplement - NatureMade (Testimonial)" },
@@ -25,6 +24,7 @@ export default function Experience() {
       { src: "/videos/apomo.MOV", title: "Website - Pomofocus.io (Competitor Comparison)" },
       { src: "/videos/wsleepspray.MOV",  title: "Relexation Spray - Nature's Beauty (Demonstration)" },
       { src: "/videos/bhairserum.MOV", title: "KBeauty Hair Serum - Mise en Scene (Testimonial)" }, // add step 1, step 2
+      
     ],
     organic: [
       { src: "/videos/aesthetic.MOV", title: "Dinner Date ft. Air Fryer - Philips (Aesthetic)" },
