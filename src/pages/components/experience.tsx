@@ -27,7 +27,7 @@ export default function Experience() {
       
     ],
     organic: [
-     { src: "/videos/aestheticc.MOV", title: "Air Fryer - Philips (Aesthetic)" },
+     { src: "/videos/aestheticc.mov", title: "Air Fryer - Philips (Aesthetic)" },
       { src: "/videos/hasmr.MOV", title: "Dining Table - Amazon (ASMR)" },
       { src: "/videos/wmaggi.MOV", title: "Mobile App - Magnify Wellness (Relatable)" },
       { src: "/videos/avercel.MOV", title: "Web App - Vercel (GRWM)" },
@@ -112,7 +112,7 @@ export default function Experience() {
 		      <details className="mb-4">
 		        <summary className="text-lg font-semibold cursor-pointer">⚡ Founder - Magnify Wellness</summary>
 		        <p className="font-nunito ml-4 mt-2">
-		          100+ chapter clubs, 80+ volunteers, 4k+ app downloads, 1M+ impressions
+		          100+ chapter clubs, 80+ volunteers, 4k+ app downloads, 1M+ impressions. <a className="text-blue hover:text-blue" href="https://magnifywellness.org"> Click me to check out our website</a>
 		        </p>
 		      </details>
 		      <details className="mb-4">
