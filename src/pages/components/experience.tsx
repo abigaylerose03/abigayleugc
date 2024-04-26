@@ -18,7 +18,7 @@ export default function Experience() {
  
       { src: "/videos/ricewater.MOV", title: "Rice Water Spray - ProBliva (Problem / Solution)" }, // tutorial?
       { src: "/videos/hcoffee.MOV", title: "KClassic Coffee Machine - Keurig (Greenscreen)" },
-      { src: "/videos/test.MOV", title: "3 Tier Cart - Amazon (Problem / Solution)" }, // cart
+      { src: "/videos/cart.MOV", title: "3 Tier Cart - Amazon (Problem / Solution)" }, // cart
       { src: "/videos/newmag.MOV",  title: "Magenesium Dietary Supplement - NatureMade (Testimonial)" },
       { src: "/videos/bloomyy.MOV",  title: "Mobile App - Bloom (Skit)" },
       { src: "/videos/apomo.MOV", title: "Website - Pomofocus.io (Competitor Comparison)" },
@@ -27,6 +27,7 @@ export default function Experience() {
       
     ],
     organic: [
+     { src: "/videos/aestheticc.MOV", title: "Air Fryer - Philips (Aesthetic)" },
       { src: "/videos/hasmr.MOV", title: "Dining Table - Amazon (ASMR)" },
       { src: "/videos/wmaggi.MOV", title: "Mobile App - Magnify Wellness (Relatable)" },
       { src: "/videos/avercel.MOV", title: "Web App - Vercel (GRWM)" },
