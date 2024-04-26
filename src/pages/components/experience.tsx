@@ -28,7 +28,7 @@ export default function Experience() {
     ],
     organic: [
      { src: "/videos/aestheticc.mov", title: "Air Fryer - Philips (Aesthetic)" },
-      { src: "/videos/hasmr.MOV", title: "Dining Table - Amazon (ASMR)" },
+      { src: "/videos/goodwill.MOV", title: "Dining Table - Amazon (ASMR)" },
       { src: "/videos/wmaggi.MOV", title: "Mobile App - Magnify Wellness (Relatable)" },
       { src: "/videos/avercel.MOV", title: "Web App - Vercel (GRWM)" },
 
