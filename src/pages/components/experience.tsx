@@ -16,13 +16,13 @@ export default function Experience() {
   const videos = {
     ads: [
  
-      { src: "/videos/hairgrowth.MOV", title: "Rice Water Spray - ProBliva (Problem / Solution)" }, // tutorial?
-      { src: "/videos/hcoffee.MOV", title: "KClassic Coffee Machine - Keurig (Greenscreen)" },
-      { src: "/videos/cart2.MOV", title: "3 Tier Cart - Amazon (Problem / Solution)" }, // cart
-      { src: "/videos/newnewmag2.MOV",  title: "Magenesium Dietary Supplement - NatureMade (Testimonial)" },
-      { src: "/videos/bloomthemoon.MOV",  title: "Mobile App - Bloom (Skit)" },
-      { src: "/videos/apomo.MOV", title: "Website - Pomofocus.io (Competitor Comparison)" },
-      { src: "/videos/sleeps.MOV",  title: "Relexation Spray - Nature's Beauty (Demonstration)" },
+      { src: "/videos/hairgrowth.MOV", title: "Rice Water Spray - ProBliva (Problem / Solution)" }, // hair/beaut?
+      { src: "/videos/hcoffee.MOV", title: "KClassic Coffee Machine - Keurig (Greenscreen)" }, // home gadget
+      { src: "/videos/cart2.MOV", title: "3 Tier Cart - Amazon (Problem / Solution)" }, // home
+      { src: "/videos/newnewmag2.MOV",  title: "Magenesium Dietary Supplement - NatureMade (Testimonial)" }, // wellness
+      { src: "/videos/bloomthemoon.MOV",  title: "Mobile App - Bloom (Skit)" }, // saas
+      { src: "/videos/apomo.MOV", title: "Website - Pomofocus.io (Competitor Comparison)" }, // saas
+      { src: "/videos/sleeps.MOV",  title: "Relexation Spray - Nature's Beauty (Demonstration)" }, //
       { src: "/videos/bhairserum.MOV", title: "KBeauty Hair Serum - Mise en Scene (Testimonial)" }, // add step 1, step 2
       
     ],
