@@ -15,13 +15,9 @@ export default function Contact() {
         <iframe
           src="https://docs.google.com/forms/d/e/1FAIpQLSeepJC_xuCVwnEzVbl8OkZDb1mR5t5fUZ-xfy1POs2HoOa9FA/viewform?embedded=true"
           className="w-full"
-          style={{ height: "1355px" }}
+          style={{ height: "785px" }}
           loading="lazy"
         >
-          Loading…<p className="my-8 text-center text-2xl font-nunito"> 
-  Fill out the contact form below or email me at <a href="mailto:abigayleugc@gmail.com">abigayleugc@gmail.com</a> and I will be in touch.
-</p>
-
         </iframe>
       </div>
     </main>
