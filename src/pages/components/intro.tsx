@@ -15,8 +15,13 @@ export default function Intro() {
           UGC Portfolio ⚡
         </h3>
         <ul className="text-xl pb-6 md:text-2xl font-nunito">
-          <li>💸 Top Creator @ Topmate 2023</li>
-          <li>💸 Founder @ Magnify Wellness Inc.</li>
+          <li>
+          💸 <a href="https://drive.google.com/file/d/1ze2b9n0-keWaC7e6A0qmTHrasOaH4GNb/view?usp=sharing" className="underline">Top Creator @ Topmate 2023</a>
+           </li>
+           <li>
+           	💸 <a href="https://shoutoutdfw.com/meet-abigayle-peterson-founder-ceo-at-magnify-wellness/" className="underline">Founder @ Magnify Wellness Inc.</a>
+          	</li>
+
           <li>💸 Top Product Manager Voice on LinkedIn (11k+)</li>
         </ul>
         <p className="mb-10 text-xl md:text-2xl font-nunito">
