@@ -32,6 +32,7 @@ export default function Experience() {
       { src: "/videos/goodwill.MOV", title: "Dining Table (Unboxing ASMR)" },
       { src: "/videos/humor.MOV", title: "Pillow Slippers Fashion (Humor)" },
       { src: "/videos/avercel.MOV", title: "Web App (GRWM)" },
+      { src: "/videos/bagfashiob.MOV", title: "Gym Bag (Process)" },
 
       // process - daily morning routine
       // visually satisfying - tacos
