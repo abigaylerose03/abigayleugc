@@ -28,7 +28,7 @@ export default function Experience() {
       
     ],
     organic: [
-      { src: "/videos/cheese2.mov", title: "Food (Tutorial)" },
+      { src: "/videos/cheese.mov", title: "Food (Tutorial)" },
       { src: "/videos/goodwill.MOV", title: "Dining Table (Unboxing ASMR)" },
       { src: "/videos/humor.MOV", title: "Pillow Slippers Fashion (Humor)" },
       { src: "/videos/avercel.MOV", title: "Web App (GRWM)" },
