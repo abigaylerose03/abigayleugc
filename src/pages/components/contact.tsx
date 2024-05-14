@@ -7,7 +7,7 @@ export default function Contact() {
         Let&apos;s Make <span className="font-bold">Magic</span> Together
       </h1>
     <p className="my-8 text-center text-2xl font-nunito"> 
-  Fill out the contact form below or email me at <a href="mailto:abigayleugc@gmail.com">abigayleugc@gmail.com</a> and I will be in touch.
+  Fill out the contact form below or email me at <a href="mailto:hello@abigayleugc.com">abigayleugc@gmail.com</a> and I will be in touch.
 </p>
 
 
