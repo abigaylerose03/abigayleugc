@@ -28,7 +28,7 @@ export default function Experience() {
       
     ],
     organic: [
-      { src: "/videos/cheese.MOV", title: "Food (Tutorial)" },
+      { src: "/videos/hairclaw.MOV", title: "Hair Accessory (Tutorial)" },
       { src: "/videos/goodwill.MOV", title: "Dining Table (Unboxing ASMR)" },
       { src: "/videos/humor.MOV", title: "Pillow Slippers Fashion (Humor)" },
       { src: "/videos/avercel.MOV", title: "Web App (GRWM)" },
@@ -100,8 +100,20 @@ export default function Experience() {
     </div>
   </div>
 ))}
+     
+
+
 
       <div className="mt-12">
+
+      <div className="flex flex-col items-center mt-0 w-full px-4">
+       <h3 className="text-2xl text-center py-4 font-unbounded tracking-wider bg-gray-500 text-white">
+          PAST CLIENT TESTIMONIALS
+        </h3>
+      	<iframe src="https://trustugc.com/widget/51rlMVkUw1XrGR5gQoGBZ6R4O0w2?id=0dd23e21-f63c-4293-b7ce-7cd0618f0464" 
+      style={{ width: '100%', border: 'none' }}></iframe>
+
+      </div>
         <h3 className="text-2xl text-center py-4 font-unbounded tracking-wider bg-gray-500 text-white">
           PHOTOGRAPHY THAT HAS THE AESTHETICS TO BUILD BRAND LOYALISTS
         </h3>
