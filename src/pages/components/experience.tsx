@@ -17,20 +17,20 @@ export default function Experience() {
   const videos = {
     ads: [
  
-      { src: "/videos/rs.MOV", title: "Rice Water Spray (Problem / Solution)" }, // hair/beaut?
-      { src: "/videos/hcoffee.MOV", title: "KClassic Coffee Machine (Greenscreen)" }, // home gadget
-      { src: "/videos/cart2.MOV", title: "3 Tier Cart (Problem / Solution)" }, // home
-      { src: "/videos/newnewmag2.MOV",  title: "Magnesium Dietary Supplement (Testimonial)" }, // wellness
-      { src: "/videos/bloomthemoon.MOV",  title: "Mobile App (Skit)" }, // saas
+      { src: "/videos/rs.MOV", title: "Hair (Problem / Solution)" }, // hair/beaut?
+      { src: "/videos/hcoffee.MOV", title: "Home Gadget (Greenscreen)" }, // home gadget
+      { src: "/videos/cart2.MOV", title: "Home (Problem / Solution)" }, // home
+      { src: "/videos/newnewmag2.MOV",  title: "Wellness (Testimonial)" }, // wellness
+      { src: "/videos/bloomthemoon.MOV",  title: "App (Skit)" }, // saas
       { src: "/videos/apomo.MOV", title: "Website (Competitor Comparison)" }, // saas
-      { src: "/videos/sleeps.MOV",  title: "Relexation Spray (Demonstration)" }, //
-      { src: "/videos/peachandlily.MOV", title: "Glass Skincare Set (Demonstration)" }, // skincare bea
+      { src: "/videos/sleeps.MOV",  title: "Wellness (Demonstration)" }, //
+      { src: "/videos/peachandlily.MOV", title: "Beauty - Skincare (Demonstration)" }, // skincare bea
       
     ],
     organic: [
-      { src: "/videos/hairclaw.MOV", title: "Hair Accessory (Tutorial)" },
-      { src: "/videos/goodwill.MOV", title: "Dining Table (Unboxing ASMR)" },
-      { src: "/videos/humor.MOV", title: "Pillow Slippers Fashion (Humor)" },
+      { src: "/videos/hairclaw.MOV", title: "Hair Accessory - Fashion (Tutorial)" },
+      { src: "/videos/goodwill.MOV", title: "Home (Unboxing ASMR)" },
+      { src: "/videos/humor.MOV", title: "Pillow Slippers - Fashion (Humor)" },
       { src: "/videos/avercel.MOV", title: "Web App (GRWM)" },
       { src: "/videos/fashion2.MOV", title: "Gym Bag (Process)" },
 
@@ -114,6 +114,7 @@ export default function Experience() {
       style={{ width: '100%', border: 'none' }}></iframe>
 
       </div>
+
         <h3 className="text-2xl text-center py-4 font-unbounded tracking-wider bg-gray-500 text-white">
           PHOTOGRAPHY THAT HAS THE AESTHETICS TO BUILD BRAND LOYALISTS
         </h3>
