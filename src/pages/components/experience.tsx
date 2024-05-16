@@ -20,6 +20,7 @@ export default function Experience() {
       { src: "/videos/rs.MOV", title: "Hair (Problem / Solution)" }, // hair/beaut?
       { src: "/videos/hcoffee.MOV", title: "Home Gadget (Greenscreen)" }, // home gadget
       { src: "/videos/cart2.MOV", title: "Home (Problem / Solution)" }, // home
+      // { src: "/videos/newnewmag2.MOV",  title: "Wellness (Testimonial)" }, // wellness REPLACE WITH JSHEALTH
       { src: "/videos/hairclaw.MOV", title: "Hair Accessory - Fashion (Tutorial)" }, // gimme
       { src: "/videos/bloomthemoon.MOV",  title: "App (Skit)" }, // saas
       { src: "/videos/apomo.MOV", title: "Website (Competitor Comparison)" }, // saas
@@ -34,7 +35,7 @@ export default function Experience() {
       { src: "/videos/avercel.MOV", title: "Web App (GRWM)" }, // REPLACE WITH BENTO 
       { src: "/videos/fashion2.MOV", title: "Gym Bag - Fashion (Process)" },
       // visually satisfying - skincare?
-      // FASHION amazon try-on haul
+      // FASHION amazon try-on
       // MAKEUP - aeygo sal tutorial nyx cosmetics
       // FRAGRANCES - (Product) that screams (type of aesthetic)
     ],
