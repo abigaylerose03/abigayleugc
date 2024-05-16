@@ -17,15 +17,15 @@ export default function Experience() {
   const videos = {
     ads: [
  
-      { src: "/videos/rs.MOV", title: "Hair (Problem / Solution)" }, // hair/beaut?
+      { src: "/videos/rs.MOV", title: "Hair Serum (Problem / Solution)" }, // hair/beaut?
       { src: "/videos/hcoffee.MOV", title: "Home Gadget (Greenscreen)" }, // home gadget
       { src: "/videos/cart2.MOV", title: "Home (Problem / Solution)" }, // home
       // { src: "/videos/newnewmag2.MOV",  title: "Wellness (Testimonial)" }, // wellness REPLACE WITH JSHEALTH
-      { src: "/videos/hairclaw.MOV", title: "Hair Accessory - Fashion (Tutorial)" }, // gimme
-      { src: "/videos/bloomthemoon.MOV",  title: "App (Skit)" }, // saas
-      { src: "/videos/apomo.MOV", title: "Website (Competitor Comparison)" }, // saas
+      { src: "/videos/hairclaw.MOV", title: "Accessory - Fashion (Tutorial)" }, // gimme
+      { src: "/videos/bloomthemoon.MOV",  title: "Mobile App / SaaS  (Skit)" }, // saas
+      { src: "/videos/apomo.MOV", title: "Web App / SaaS (Competitor Comparison)" }, // saas
       { src: "/videos/sleeps.MOV",  title: "Wellness (Demonstration)" }, //
-      { src: "/videos/peachandlily.MOV", title: "Beauty - Skincare (Demonstration)" }, // skincare bea
+      { src: "/videos/peachandlily.MOV", title: "Skincare (Demonstration)" }, // skincare bea
       
     ],
     organic: [
