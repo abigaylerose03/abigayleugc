@@ -22,7 +22,7 @@ export default function Experience() {
       { src: "/videos/cart2.MOV", title: "Home (Problem / Solution)" }, // home
       // { src: "/videos/newnewmag2.MOV",  title: "Wellness (Testimonial)" }, // wellness REPLACE WITH JSHEALTH
       { src: "/videos/hairclaw.MOV", title: "Accessory - Fashion (Tutorial)" }, // gimme
-      { src: "/videos/bloomthemoon.MOV",  title: "Mobile App / SaaS  (Skit)" }, // saas
+      { src: "/videos/bloomthemoon.MOV",  title: "Mobile App / SaaS  (Skit)" }, // saas // REPLACE WITH JSHEALTH
       { src: "/videos/apomo.MOV", title: "Web App / SaaS (Competitor Comparison)" }, // saas
       { src: "/videos/sleeps.MOV",  title: "Wellness (Demonstration)" }, //
       { src: "/videos/peachandlily.MOV", title: "Skincare (Demonstration)" }, // skincare bea
@@ -33,7 +33,6 @@ export default function Experience() {
       { src: "/videos/goodwill.MOV", title: "Home (Unboxing ASMR)" },
       { src: "/videos/humor.MOV", title: "Pillow Slippers - Fashion (Humor)" },
       { src: "/videos/avercel.MOV", title: "Web App (GRWM)" }, // REPLACE WITH BENTO 
-      { src: "/videos/fashion2.MOV", title: "Gym Bag - Fashion (Process)" },
       // visually satisfying - skincare?
       // FASHION amazon try-on
       // MAKEUP - aeygo sal tutorial nyx cosmetics
