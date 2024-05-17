@@ -20,23 +20,19 @@ export default function Experience() {
       { src: "/videos/rs.MOV", title: "Hair Serum (Problem / Solution)" }, // hair/beaut?
       { src: "/videos/hcoffee.MOV", title: "Home Gadget (Greenscreen)" }, // home gadget
       { src: "/videos/cart2.MOV", title: "Home (Problem / Solution)" }, // home
-      // { src: "/videos/newnewmag2.MOV",  title: "Wellness (Testimonial)" }, // wellness REPLACE WITH JSHEALTH
-      { src: "/videos/hairclaw.MOV", title: "Accessory - Fashion (Tutorial)" }, // gimme
-      { src: "/videos/bloomthemoon.MOV",  title: "Mobile App / SaaS  (Skit)" }, // saas // REPLACE WITH JSHEALTH
+      { src: "/videos/jshealth.MOV",  title: "Wellness (Testimonial)" }, // wellness REPLACE WITH JSHEALTH
+      { src: "/videos/hc.MOV", title: "Accessory - Fashion (Tutorial)" }, // gimme
+      { src: "/videos/bento2.MOV",  title: "Mobile App / SaaS  (Skit)" },
       { src: "/videos/apomo.MOV", title: "Web App / SaaS (Competitor Comparison)" }, // saas
       { src: "/videos/sleeps.MOV",  title: "Wellness (Demonstration)" }, //
-      { src: "/videos/peachandlily.MOV", title: "Skincare (Demonstration)" }, // skincare bea
+      { src: "/videos/skincare.MOV", title: "Skincare (Demonstration)" }, // skincare bea
       
     ],
     organic: [
-      { src: "/videos/hairclaw.MOV", title: "Hair Accessory - Fashion (Tutorial)" }, // gimme
       { src: "/videos/goodwill.MOV", title: "Home (Unboxing ASMR)" },
       { src: "/videos/humor.MOV", title: "Pillow Slippers - Fashion (Humor)" },
-      { src: "/videos/avercel.MOV", title: "Web App (GRWM)" }, // REPLACE WITH BENTO 
-      // visually satisfying - skincare?
-      // FASHION amazon try-on
-      // MAKEUP - aeygo sal tutorial nyx cosmetics
-      // FRAGRANCES - (Product) that screams (type of aesthetic)
+      { src: "/videos/finalrevisionpkb.mov", title: "App / SaaS (Lifestyle)" }, // REPLACE WITH BENTO 
+      { src: "/videos/amazonfashionmusic.MOV", title: "Fashion (Process)" }, // REPLACE WITH BENTO 
     ],
 
   };
